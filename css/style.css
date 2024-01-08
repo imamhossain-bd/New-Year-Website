@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', sans-serif;
+}
+
+
+.banner {
+    padding: 50px 140px;
+}
+
+.banner_img {
+    width: 100%;
+    height: 600px;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/images/Bannerimg.png);
+}
+
+.banner_info {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    font-family: Merriweather;
+    padding-top: 195px;
+    font-weight: 400;
+}
+
+.banner_title {
+    color: #fff;
+    font-size: 75px;
+    text-align: center;
+    margin-top: 16px;
+    font-family: Merriweather;
+    font-weight: 800;
+
+}
+
+
+/* Main section style start */
+
+.discount_offer {
+    color: #F00;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 800;
+    margin-top: 80px;
+}
+
+.discount_info {
+    color: #F00;
+    text-align: center;
+    font-size: 18px;
+}
+
+.discount_title {
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+    margin-top: 15px;
+}
+
+.new_year_offer img {
+    width: 760px;
+    height: 480px;
+    margin-top: 80px;
+    margin-left: 27pc;
+}
+
+.vectorr {
+    padding: 50px 140px;
+}
+
+.vectorr .vectorr_img {
+    width: 100%;
+    height: 600px;
+    margin-top: 90px;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/images/Vectorrr.png);
+    background-repeat: no-repeat;
+}
+
+.vectorr_titile {
+    color: #fff;
+    font-size: 65px;
+    font-weight: 800;
+    padding: 126px 550px 20px 126px;
+}
+
+.vectorr_info {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 550px 20px 126px;
+}
+
+.btn_primary {
+    width: 120px;
+    height: 45px;
+    background-color: #F00;
+    border: none;
+    border-radius: 8px;
+    margin-left: 126px;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 30px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.btn_primary:hover {
+    border: 1px solid #00e2ed;
+    background: transparent;
+    color: #fff;
+}
+
+
+
+.hotel_booking {
+    width: 1300px;
+    height: 450px;
+    background: linear-gradient(180deg, rgb(255 0 233 / 25%) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 50px 140px;
+    border-radius: 28px;
+}
+
+.place_selected span {
+    color: #F00;
+}
+
+.place_selected {
+    text-align: center;
+    padding-top: 180px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.booking_date span {
+    color: #F00;
+}
+
+.booking_date {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.time span {
+    color: #F00;
+}
+
+.time {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.hotel_booking .join_btn {
+    width: 120px;
+    height: 45px;
+    background-color: #F00;
+    border: none;
+    border-radius: 8px;
+    margin-left: 38pc;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 42px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+.coming_soon_offer {
+    margin: 50px 140px;
+    background-color: #fff;
+    width: 1320px;
+    height: 400px;
+    padding-left: 10px;
+    margin-top: 110px;
+    display: flex;
+}
+
+.offer_description {
+    width: 360px;
+    height: 400px;
+}
+
+.offer_description .info {
+    color: #F00;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 130px;
+}
+
+.offer_description .offer_title {
+    color: #000;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 10px;
+    font-family: Merriweather;
+    text-transform: capitalize;
+}
+
+.offer_description .coming_offer_descrition {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.offer_img {
+    width: 370px;
+    height: 370px;
+    background-color: #fff;
+    margin-left: 7pc;
+    border-radius: 50%;
+    border: 15px solid #F00;
+}
+
+.offer_img img {
+    width: 330px;
+    height: 330px;
+    padding: 20px 20px;
+}
+
+.offer_time {
+    width: 265px;
+    height: 400px;
+    margin-left: 70px;
+}
+
+.offer_time .year {
+    color: #F00;
+    padding-top: 70px;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.offer_time .year_info {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+.offer_time img{
+    width: 100px;
+    height: 115px;
+    margin-top: 25px;
+}
+
+
+
+
+
+/* Main section style end */
